@@ -1,0 +1,65 @@
+{
+  "name": "@meludi/eslint-config-prettier",
+  "version": "0.0.0",
+  "description": "Shareable configuration for prettier eslint",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": {
+    "email": "milad@al-ani.de",
+    "name": "Milad Al-Ani"
+  },
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./base": "./base.js",
+    "./vue": "./vue.js",
+    "./rules/base": "./rules/base.js",
+    "./rules/vue": "./rules/vue.js",
+    "./patch/modern-module-resolution": "./patch/modern-module-resolution.js",
+    "./package.json": "./package.json",
+    "./prettier.config": "./prettier.config.js"
+  },
+  "files": [
+    "index.js",
+    "base.js",
+    "vue.js",
+    "prettier.config.js",
+    "patch",
+    "rules"
+  ],
+  "scripts": {
+    "precommit": "lint-staged",
+    "unused": "echo \"OK - @meludi/eslint-config-prettier unused\" && exit 0",
+    "lint": "eslint . --max-warnings 0",
+    "test": "echo \"OK - @meludi/eslint-config-prettier\" && exit 0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-find-rules": "^4.1.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3"
+  },
+  "engines": {
+    "node": "^16.x || ^18.x"
+  },
+  "bugs": {
+    "url": "https://github.com/meludi/eslint-config/issues"
+  },
+  "homepage": "https://github.com/meludi/eslint-config/tree/main/packages/eslint-config-prettier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meludi/eslint-config"
+  }
+}

@@ -4,7 +4,11 @@ Shareable eslint configuration.
 
 ## Packages
 
-This repository is a monorepo that using [Lerna](https://github.com/lerna/lerna). That means that we actually publish [several packages](/packages) to npm from the same codebase.                                                                                              
+This repository is a monorepo that using [Lerna](https://github.com/lerna/lerna). That means that we actually publish [several packages](/packages) to npm from the same codebase, including:
+
+| Package                                                                                                               | Docs                                                                                                                                                                     | Description                          |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ |
+| [`@meludi/eslint-config-prettier`](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-prettier)       | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-prettier/#readme)    | Format your code. |                                                                                           
 
 ## Development
 
