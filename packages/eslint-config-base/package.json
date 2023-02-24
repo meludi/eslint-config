@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Shareable configuration for javascript eslint",
   "keywords": [
-    "eslint",
-    "eslint-config",
     "prettier",
-    "prettier-config"
+    "prettier-config",
+    "eslint",
+    "eslint-config"
   ],
   "author": {
     "email": "milad@al-ani.de",
@@ -32,7 +32,7 @@
     "precommit": "lint-staged",
     "unused": "eslint-find-rules --unused ./index.js",
     "lint": "eslint . --max-warnings 0",
-    "test": "echo \"OK - @meludi/eslint-config-base\" && exit 0"
+    "test": "echo \"Not specified\" && exit 0"
   },
   "dependencies": {
     "@meludi/eslint-config-prettier": "*",

@@ -33,9 +33,9 @@
   ],
   "scripts": {
     "precommit": "lint-staged",
-    "unused": "echo \"OK - @meludi/eslint-config-prettier unused\" && exit 0",
+    "unused": "echo \"Not specified\" && exit 0",
     "lint": "eslint . --max-warnings 0",
-    "test": "echo \"OK - @meludi/eslint-config-prettier\" && exit 0"
+    "test": "echo \"Not specified\" && exit 0"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
