@@ -1,0 +1,10 @@
+{
+  "name": "@meludi/eslint-config",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}
