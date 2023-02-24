@@ -29,7 +29,7 @@ importers:
 
   packages/eslint-config-base:
     specifiers:
-      '@meludi/eslint-config-prettier': '*'
+      '@meludi/eslint-config-prettier': ^0.1.1
       '@rushstack/eslint-patch': ^1.2.0
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
@@ -71,8 +71,8 @@ importers:
 
   packages/eslint-config-ts-base:
     specifiers:
-      '@meludi/eslint-config-base': '*'
-      '@meludi/eslint-config-prettier': '*'
+      '@meludi/eslint-config-base': ^0.1.1
+      '@meludi/eslint-config-prettier': ^0.1.1
       '@rushstack/eslint-patch': ^1.2.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
