@@ -10,7 +10,7 @@ This repository is a monorepo that using [Lerna](https://github.com/lerna/lerna)
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | [`@meludi/eslint-config-prettier`](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-prettier) | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-prettier/#readme) | Format your code.                    |
 | [`@meludi/eslint-config-base`](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-base)         | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-base/#readme)     | Format and fix your javascript code. |
-| [`@meludi/eslint-config-ts-base`](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-base) | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-base/#readme) | Format and fix your typescript code. |
+| [`@meludi/eslint-config-ts-base`](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-base)   | [![](https://img.shields.io/badge/docs-readme-orange.svg?style=flat-square)](https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-base/#readme)  | Format and fix your typescript code. |
 
 ## Development
 

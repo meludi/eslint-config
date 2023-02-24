@@ -2,6 +2,8 @@
   "name": "@meludi/eslint-config-base",
   "version": "0.1.0",
   "description": "Shareable configuration for javascript eslint",
+  "private": false,
+  "license": "MIT",
   "keywords": [
     "prettier",
     "prettier-config",
@@ -12,8 +14,6 @@
     "email": "milad@al-ani.de",
     "name": "Milad Al-Ani"
   },
-  "license": "MIT",
-  "private": false,
   "main": "index.js",
   "exports": {
     ".": "./index.js",
