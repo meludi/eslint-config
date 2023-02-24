@@ -1,0 +1,27 @@
+{
+  // You need to disable Vetur to avoid conflicts.
+  // https://marketplace.visualstudio.com/items?itemName=Vue.volar
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  // emmet
+  "emmet.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  // javascript
+  "[javascript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  // editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // eslint
+    "source.fixAll.eslint": true
+  }
+}
