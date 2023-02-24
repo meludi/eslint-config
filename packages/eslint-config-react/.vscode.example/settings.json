@@ -1,0 +1,17 @@
+{
+  // javascript
+  "[javascript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  // editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // eslint
+    "source.fixAll.eslint": true
+  }
+}

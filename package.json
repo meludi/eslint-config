@@ -7,7 +7,10 @@
     "prettier",
     "prettier-config",
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "react-config",
+    "typescript",
+    "typescript-config"
   ],
   "author": {
     "email": "milad@al-ani.de",
