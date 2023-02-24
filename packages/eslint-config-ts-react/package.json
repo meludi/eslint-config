@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-ts-react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shareable configuration for react typescript eslint",
   "private": false,
   "license": "MIT",
