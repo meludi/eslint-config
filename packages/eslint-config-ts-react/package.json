@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-ts-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shareable configuration for react typescript eslint",
   "private": false,
   "license": "MIT",
@@ -44,10 +44,10 @@
     "test": "echo \"Not specified\" && exit 0"
   },
   "dependencies": {
-    "@meludi/eslint-config-base": "*",
-    "@meludi/eslint-config-prettier": "*",
-    "@meludi/eslint-config-react": "*",
-    "@meludi/eslint-config-ts-base": "*",
+    "@meludi/eslint-config-base": "^0.1.2",
+    "@meludi/eslint-config-prettier": "^0.1.2",
+    "@meludi/eslint-config-react": "^0.1.1",
+    "@meludi/eslint-config-ts-base": "^0.1.1",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",

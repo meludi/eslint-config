@@ -29,7 +29,7 @@ importers:
 
   packages/eslint-config-base:
     specifiers:
-      '@meludi/eslint-config-prettier': ^0.1.1
+      '@meludi/eslint-config-prettier': ^0.1.2
       '@rushstack/eslint-patch': ^1.2.0
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
@@ -71,8 +71,8 @@ importers:
 
   packages/eslint-config-react:
     specifiers:
-      '@meludi/eslint-config-base': '*'
-      '@meludi/eslint-config-prettier': '*'
+      '@meludi/eslint-config-base': ^0.1.2
+      '@meludi/eslint-config-prettier': ^0.1.2
       '@rushstack/eslint-patch': ^1.2.0
       eslint: ^8.32.0
       eslint-config-airbnb: ^19.0.4
@@ -104,8 +104,8 @@ importers:
 
   packages/eslint-config-ts-base:
     specifiers:
-      '@meludi/eslint-config-base': ^0.1.1
-      '@meludi/eslint-config-prettier': ^0.1.1
+      '@meludi/eslint-config-base': ^0.1.2
+      '@meludi/eslint-config-prettier': ^0.1.2
       '@rushstack/eslint-patch': ^1.2.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
@@ -137,10 +137,10 @@ importers:
 
   packages/eslint-config-ts-react:
     specifiers:
-      '@meludi/eslint-config-base': '*'
-      '@meludi/eslint-config-prettier': '*'
-      '@meludi/eslint-config-react': '*'
-      '@meludi/eslint-config-ts-base': '*'
+      '@meludi/eslint-config-base': ^0.1.2
+      '@meludi/eslint-config-prettier': ^0.1.2
+      '@meludi/eslint-config-react': ^0.1.1
+      '@meludi/eslint-config-ts-base': ^0.1.1
       '@rushstack/eslint-patch': ^1.2.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
@@ -180,10 +180,10 @@ importers:
 
   packages/eslint-config-ts-vue:
     specifiers:
-      '@meludi/eslint-config-base': '*'
-      '@meludi/eslint-config-prettier': '*'
-      '@meludi/eslint-config-ts-base': '*'
-      '@meludi/eslint-config-vue': '*'
+      '@meludi/eslint-config-base': ^0.1.2
+      '@meludi/eslint-config-prettier': ^0.1.2
+      '@meludi/eslint-config-ts-base': ^0.1.1
+      '@meludi/eslint-config-vue': ^0.1.1
       '@rushstack/eslint-patch': ^1.2.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
@@ -221,8 +221,8 @@ importers:
 
   packages/eslint-config-vue:
     specifiers:
-      '@meludi/eslint-config-base': '*'
-      '@meludi/eslint-config-prettier': '*'
+      '@meludi/eslint-config-base': ^0.1.2
+      '@meludi/eslint-config-prettier': ^0.1.2
       '@rushstack/eslint-patch': ^1.2.0
       eslint: ^8.32.0
       eslint-config-airbnb-base: ^15.0.0
