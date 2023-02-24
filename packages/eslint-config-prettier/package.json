@@ -17,6 +17,7 @@
     ".": "./index.js",
     "./base": "./base.js",
     "./vue": "./vue.js",
+    "./rules/common": "./rules/common.js",
     "./rules/base": "./rules/base.js",
     "./rules/vue": "./rules/vue.js",
     "./patch/modern-module-resolution": "./patch/modern-module-resolution.js",
