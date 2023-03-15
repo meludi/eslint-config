@@ -28,6 +28,9 @@
     "patch",
     "rules"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "lint-staged",
     "unused": "eslint-find-rules --unused ./index.js",

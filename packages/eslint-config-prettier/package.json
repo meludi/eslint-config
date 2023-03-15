@@ -32,6 +32,9 @@
     "patch",
     "rules"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "lint-staged",
     "unused": "echo \"Not specified\" && exit 0",
