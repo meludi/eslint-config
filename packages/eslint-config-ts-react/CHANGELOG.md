@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-ts-react@0.1.2...@meludi/eslint-config-ts-react@0.1.3) (2023-03-19)
+
+### Bug Fixes
+
+- **eslint-config-ts-react:** add typescript as peerDependencies ([b966afa](https://github.com/meludi/eslint-config/commit/b966afa1d83255fa778c46140a0f496c7710f3db))
+
 ## [0.1.2](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-ts-react@0.1.1...@meludi/eslint-config-ts-react@0.1.2) (2023-03-15)
 
 ### Bug Fixes

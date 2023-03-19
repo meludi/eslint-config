@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-base@0.1.3...@meludi/eslint-config-base@0.1.4) (2023-03-19)
+
+**Note:** Version bump only for package @meludi/eslint-config-base
+
 ## [0.1.3](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-base@0.1.2...@meludi/eslint-config-base@0.1.3) (2023-03-15)
 
 ### Bug Fixes
