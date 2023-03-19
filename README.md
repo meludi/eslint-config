@@ -75,3 +75,19 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 [eslint-config-ts-vue-doc-link]: https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-vue/#readme
 [eslint-config-ts-vue-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-ts-vue?label=issues
 [eslint-config-ts-vue-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-ts-vue%22
+
+## Development
+### Versioning and publishing
+```sh
+# Login to npm registry with your credentials
+# This operation requires a one-time password
+$ npm login
+
+# Versioning
+# Remember to push new version tags and main to the repo!
+$ pnpm lerna:version
+
+# Publishing
+# This operation requires a one-time password
+$ pnpm lerna:publish
+```
