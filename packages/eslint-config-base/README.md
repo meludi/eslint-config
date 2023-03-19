@@ -1,5 +1,9 @@
 # @meludi/eslint-config-base
 
+[![NPM Package][eslint-config-base-npm-badge]][eslint-config-base-npm-link]
+[![GitHub issues][eslint-config-base-issues-badge]][eslint-config-base-issues-link]
+[![GitHub license][eslint-config-license-badge]][eslint-config-license-link]
+
 This package provides [ESLint](https://eslint.org/) settings as an shareable javascript eslint configuration.
 
 ## Installation
@@ -118,3 +122,10 @@ Copy [.vscode.example](https://github.com/meludi/eslint-config/tree/master/packa
 ## LICENSE
 
 [MIT](LICENSE)
+
+[eslint-config-license-badge]: https://img.shields.io/github/license/meludi/eslint-config
+[eslint-config-license-link]: https://github.com/meludi/eslint-config/blob/main/LICENSE
+[eslint-config-base-npm-badge]: https://img.shields.io/npm/v/@meludi/eslint-config-base.svg
+[eslint-config-base-npm-link]: https://www.npmjs.com/package/@meludi/eslint-config-base
+[eslint-config-base-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-base?label=issues
+[eslint-config-base-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-base%22

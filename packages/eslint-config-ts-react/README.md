@@ -1,5 +1,9 @@
 # @meludi/eslint-config-ts-react
 
+[![NPM Package][eslint-config-ts-react-npm-badge]][eslint-config-ts-react-npm-link]
+[![GitHub issues][eslint-config-ts-react-issues-badge]][eslint-config-ts-react-issues-link]
+[![GitHub license][eslint-config-license-badge]][eslint-config-license-link]
+
 This package provides [ESLint](https://eslint.org/) settings as an shareable react typescript eslint configuration.
 
 ## Installation
@@ -120,3 +124,10 @@ Copy [.vscode.example](https://github.com/meludi/eslint-config/tree/master/packa
 ## LICENSE
 
 [MIT](LICENSE)
+
+[eslint-config-license-badge]: https://img.shields.io/github/license/meludi/eslint-config
+[eslint-config-license-link]: https://github.com/meludi/eslint-config/blob/main/LICENSE
+[eslint-config-ts-react-npm-badge]: https://img.shields.io/npm/v/@meludi/eslint-config-ts-react.svg
+[eslint-config-ts-react-npm-link]: https://www.npmjs.com/package/@meludi/eslint-config-ts-react
+[eslint-config-ts-react-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-ts-react?label=issues
+[eslint-config-ts-react-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-ts-react%22

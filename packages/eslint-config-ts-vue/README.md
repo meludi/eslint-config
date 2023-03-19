@@ -1,5 +1,9 @@
 # @meludi/eslint-config-ts-vue
 
+[![NPM Package][eslint-config-ts-vue-npm-badge]][eslint-config-ts-vue-npm-badge]
+[![GitHub issues][eslint-config-ts-vue-issues-badge]][eslint-config-ts-vue-issues-link]
+[![GitHub license][eslint-config-license-badge]][eslint-config-license-link]
+
 This package provides [ESLint](https://eslint.org/) settings as an shareable vue typescript eslint configuration.
 
 ## Installation
@@ -119,3 +123,10 @@ Copy [.vscode.example](https://github.com/meludi/eslint-config/tree/master/packa
 ## LICENSE
 
 [MIT](LICENSE)
+
+[eslint-config-license-badge]: https://img.shields.io/github/license/meludi/eslint-config
+[eslint-config-license-link]: https://github.com/meludi/eslint-config/blob/main/LICENSE
+[eslint-config-ts-vue-npm-badge]: https://img.shields.io/npm/v/@meludi/eslint-config-ts-vue.svg
+[eslint-config-ts-vue-npm-link]: https://www.npmjs.com/package/@meludi/eslint-config-ts-vue
+[eslint-config-ts-vue-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-ts-vue?label=issues
+[eslint-config-ts-vue-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-ts-vue%22

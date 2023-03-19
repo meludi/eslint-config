@@ -1,5 +1,9 @@
 # @meludi/eslint-config-prettier
 
+[![NPM Package][eslint-config-prettier-npm-badge]][eslint-config-prettier-npm-link]
+[![GitHub issues][eslint-config-prettier-issues-badge]][eslint-config-prettier-issues-link]
+[![GitHub license][eslint-config-license-badge]][eslint-config-license-link]
+
 This package provides [Prettier](https://prettier.io) settings as an shareable configuration.
 
 ## Installation
@@ -87,3 +91,10 @@ Copy [.vscode.example](https://github.com/meludi/eslint-config/tree/master/packa
 ## LICENSE
 
 [MIT](LICENSE)
+
+[eslint-config-license-badge]: https://img.shields.io/github/license/meludi/eslint-config
+[eslint-config-license-link]: https://github.com/meludi/eslint-config/blob/main/LICENSE
+[eslint-config-prettier-npm-badge]: https://img.shields.io/npm/v/@meludi/eslint-config-prettier.svg
+[eslint-config-prettier-npm-link]: https://www.npmjs.com/package/@meludi/eslint-config-prettier
+[eslint-config-prettier-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-prettier?label=issues
+[eslint-config-prettier-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-prettier%22
