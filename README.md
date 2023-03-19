@@ -22,6 +22,22 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 | [@meludi/eslint-config-ts-react][eslint-config-ts-react-package] | [![NPM Package][eslint-config-ts-react-npm-badge]][eslint-config-ts-react-npm-link] | [![][doc-badge]][eslint-config-ts-react-doc-link] | [![GitHub issues][eslint-config-ts-react-issues-badge]][eslint-config-ts-react-issues-link] | Format and lint your react code. |
 | [@meludi/eslint-config-ts-vue][eslint-config-ts-vue-package]     | [![NPM Package][eslint-config-ts-vue-npm-badge]][eslint-config-ts-vue-npm-link]     | [![][doc-badge]][eslint-config-ts-vue-doc-link]   | [![GitHub issues][eslint-config-ts-vue-issues-badge]][eslint-config-ts-vue-issues-link]     | Format and lint your react code. |
 
+## Development
+### Versioning and publishing
+```sh
+# Login to npm registry with your credentials
+# This operation requires a one-time password
+$ npm login
+
+# Versioning
+# Remember to push new version tags and main to the repo!
+$ pnpm lerna:version
+
+# Publishing
+# This operation requires a one-time password
+$ pnpm lerna:publish
+```
+
 ## LICENSE
 
 [MIT](LICENSE)
@@ -75,19 +91,3 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 [eslint-config-ts-vue-doc-link]: https://github.com/meludi/eslint-config/tree/master/packages/eslint-config-ts-vue/#readme
 [eslint-config-ts-vue-issues-badge]: https://img.shields.io/github/issues/meludi/stylelint-config/package:%20eslint-config-ts-vue?label=issues
 [eslint-config-ts-vue-issues-link]: https://github.com/meludi/stylelint-config/issues?q=is%3Aopen+is%3Aissue+label%3A%22package%3A+eslint-config-ts-vue%22
-
-## Development
-### Versioning and publishing
-```sh
-# Login to npm registry with your credentials
-# This operation requires a one-time password
-$ npm login
-
-# Versioning
-# Remember to push new version tags and main to the repo!
-$ pnpm lerna:version
-
-# Publishing
-# This operation requires a one-time password
-$ pnpm lerna:publish
-```
