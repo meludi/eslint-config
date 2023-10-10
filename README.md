@@ -30,18 +30,15 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 # https://www.conventionalcommits.org/en/v1.0.0/
 $ pnpm commit
 
-# Pushing commits from main branch to remote repository
-$ git push main
-
 # Login to npm registry with your credentials
 # This operation requires a one-time password
 $ npm login
 
 # Versioning
-# Remember to push new version tags and main to the repo!
+# Remember to push new versioned tags and main branch to the repo!
 $ pnpm lerna:version
 
-# Publishing
+# Publishing to npm registry
 # This operation requires a one-time password
 $ pnpm lerna:publish
 ```

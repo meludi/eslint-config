@@ -1,6 +1,6 @@
 # @meludi/eslint-config-vue
 
-[![NPM Package][eslint-config-vue-npm-badge]][eslint-config-vue-npm-badge]
+[![NPM Package][eslint-config-vue-npm-badge]][eslint-config-vue-npm-link]
 [![GitHub issues][eslint-config-vue-issues-badge]][eslint-config-vue-issues-link]
 [![GitHub license][eslint-config-license-badge]][eslint-config-license-link]
 
