@@ -36,7 +36,7 @@ Add the following to your `.eslint.js`:
 // .eslint.js
 module.exports = {
   extends: [
-    '@meludi/eslint-config-ts-vue/vue2',
+    '@meludi/eslint-config-ts-vue/vue2', // or '@meludi/eslint-config-ts-vue/vue3'
 
     // Make sure to put prettier last, so it gets the chance to override other configs.
     '@meludi/eslint-config-prettier/vue',

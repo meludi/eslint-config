@@ -23,8 +23,16 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 | [@meludi/eslint-config-ts-vue][eslint-config-ts-vue-package]     | [![NPM Package][eslint-config-ts-vue-npm-badge]][eslint-config-ts-vue-npm-link]     | [![][doc-badge]][eslint-config-ts-vue-doc-link]   | [![GitHub issues][eslint-config-ts-vue-issues-badge]][eslint-config-ts-vue-issues-link]     | Format and lint your react code. |
 
 ## Development
-### Versioning and publishing
+
+### Committing, versioning and publishing
 ```sh
+# Commit with conventional commits
+# https://www.conventionalcommits.org/en/v1.0.0/
+$ pnpm commit
+
+# Pushing commits from main branch to remote repository
+$ git push main
+
 # Login to npm registry with your credentials
 # This operation requires a one-time password
 $ npm login
