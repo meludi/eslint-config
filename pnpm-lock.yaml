@@ -185,7 +185,7 @@ importers:
       '@meludi/eslint-config-base': ^0.1.4
       '@meludi/eslint-config-prettier': ^0.1.4
       '@meludi/eslint-config-ts-base': ^0.1.3
-      '@meludi/eslint-config-vue': ^0.1.3
+      '@meludi/eslint-config-vue': ^0.1.4
       '@rushstack/eslint-patch': ^1.2.0
       '@typescript-eslint/eslint-plugin': ^5.49.0
       '@typescript-eslint/parser': ^5.49.0
