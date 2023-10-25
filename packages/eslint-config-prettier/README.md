@@ -28,12 +28,12 @@ $ npm info "@meludi/eslint-config-prettier@latest" peerDependencies
 
 ## Usage
 
-If you did not already have `.eslint.js` and `prettier.config.js` configuration files in the root of your project create them.
+If you did not already have `.eslintrc.js` and `prettier.config.js` configuration files in the root of your project create them.
 
-Add the following to your `.eslint.js`:
+Add the following to your `.eslintrc.js`:
 
 ```js
-// .eslint.js
+// .eslintrc.js
 module.exports = {
   extends: [
     // ... other configs

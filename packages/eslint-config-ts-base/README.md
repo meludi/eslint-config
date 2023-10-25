@@ -27,15 +27,15 @@ $ npm info "@meludi/eslint-config-ts-base@latest" peerDependencies
 
 ## Usage
 
-If you did not already have `.eslint.js` and `prettier.config.js` configuration files in the root of your project create them.
+If you did not already have `.eslintrc.js` and `prettier.config.js` configuration files in the root of your project create them.
 
-Add the following to your `.eslint.js`:
+Add the following to your `.eslintrc.js`:
 
 ```js
-// .eslint.js
+// .eslintrc.js
 module.exports = {
   extends: [
-    '@meludi/eslint-config-base',
+    '@meludi/eslint-config-ts-base',
 
     // Make sure to put prettier last, so it gets the chance to override other configs.
     '@meludi/eslint-config-prettier/base',
@@ -95,7 +95,7 @@ Add the following script to your `package.json` for easy usage:
 
 ### Configuration
 
-You can overwrite, extend and unset rules in your `.eslint.js`
+You can overwrite, extend and unset rules in your `.eslintrc.js`
 
 > [Configuring ESLint](https://eslint.org/docs/user-guide/configuring)
 
