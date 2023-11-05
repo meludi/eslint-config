@@ -19,37 +19,36 @@
   },
   "scripts": {
     "prepare": "is-ci || husky install",
-    "preinstall": "npx only-allow pnpm",
-    "pre-commit": "lerna run precommit --concurrency 1 --stream",
+    "pre-commit": "lint-staged",
     "format": "prettier --ignore-path='.prettierignore' --list-different --write .",
     "commitlint": "commitlint --edit $1",
     "commit": "git cz",
     "unused": "lerna run unused --stream",
     "test": "lerna run test --stream",
-    "lint": "lerna run lint --concurrency 1 --stream",
+    "lint": "eslint .",
     "lerna:version": "lerna version --no-private --no-push",
     "lerna:publish": "lerna publish from-package",
     "lerna:verdaccio:publish": "lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\"",
     "lerna:verdaccio:unpublish": "lerna exec -- npm unpublish --registry=\"http://localhost:4873/\" \"\\${LERNA_PACKAGE_NAME}@\\$(npm view \\$LERNA_PACKAGE_NAME version)\"",
     "lerna:verdaccio:unpublish:all": "lerna exec -- npm unpublish -f --registry=\"http://localhost:4873/\" \"\\${LERNA_PACKAGE_NAME}\""
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@meludi/conventional-commits-config": "^1.0.0",
     "@meludi/eslint-config-base": "*",
     "@meludi/eslint-config-prettier": "*",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.32.0",
-    "husky": "^8.0.3",
+    "eslint-find-rules": "^4.1.0",
     "is-ci": "^3.0.1",
-    "lerna": "^6.4.1",
-    "prettier": "^2.8.3"
+    "lerna": "^7.4.2",
+    "prettier": "^3.0.3"
   },
   "engines": {
     "node": "^16.x || ^18.x"

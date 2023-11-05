@@ -1,8 +1,5 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "npmClient": "pnpm",
-  "useNx": true,
-  "useWorkspaces": true,
   "version": "independent",
   "command": {
     "publish": {

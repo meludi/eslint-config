@@ -49,7 +49,7 @@ module.exports = {
   // Adjust it to your project
   // https://typescript-eslint.io/architecture/parser/
   parserOptions: {
-   project: ['./tsconfig.json', './tsconfig.eslint.json'],
+    project: ['./tsconfig.json', './tsconfig.eslint.json'],
     tsconfigRootDir: __dirname,
     sourceType: 'module',
     ecmaVersion: 'latest',
@@ -88,7 +88,6 @@ You can overwrite, extend and unset rules in your `.eslintrc.js`
 
 > [Configuring ESLint](https://eslint.org/docs/user-guide/configuring)
 
-
 Example `tsconfig.eslint.json` configuration file in the root of your project
 
 ```json
@@ -96,7 +95,6 @@ Example `tsconfig.eslint.json` configuration file in the root of your project
   "include": [
     // add all files in which you see
     // the "parserOptions.project" error
-
     // Example
     // ".eslintrc.cjs",
     // "commitlint.config.cjs",

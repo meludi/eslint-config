@@ -36,7 +36,6 @@
     "access": "public"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "unused": "eslint-find-rules --unused --no-error ./index.js",
     "lint": "eslint . --max-warnings 0",
     "test": "echo \"Not specified\" && exit 0"
@@ -54,13 +53,6 @@
   "peerDependencies": {
     "@meludi/eslint-config-base": "*",
     "eslint": ">= 8"
-  },
-  "devDependencies": {
-    "@meludi/eslint-config-prettier": "^0.2.0",
-    "eslint": "^8.32.0",
-    "eslint-find-rules": "^4.1.0",
-    "lint-staged": "^13.1.0",
-    "prettier": "^3.0.3"
   },
   "engines": {
     "node": "^16.x || ^18.x"
