@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-vue@0.1.4...@meludi/eslint-config-vue@0.2.0) (2023-11-05)
+
+### Code Refactoring
+
+- update and decouple prettier as dependency ([7c14cc9](https://github.com/meludi/eslint-config/commit/7c14cc950989576126e73bcd9a1e67c67aa8ad54))
+
+### BREAKING CHANGES
+
+- eslint-config-prettier can no longer be reached via the packages and must be
+  installed and configured separately.
+
 ## [0.1.4](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-vue@0.1.3...@meludi/eslint-config-vue@0.1.4) (2023-10-10)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-base",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Shareable configuration for javascript eslint",
   "private": false,
   "license": "MIT",
@@ -46,7 +46,7 @@
     "eslint": ">= 8"
   },
   "devDependencies": {
-    "@meludi/eslint-config-prettier": "^0.1.4",
+    "@meludi/eslint-config-prettier": "^0.2.0",
     "eslint": "^8.32.0",
     "eslint-find-rules": "^4.1.0",
     "lint-staged": "^13.1.0",
