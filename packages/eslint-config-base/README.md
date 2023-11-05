@@ -27,7 +27,7 @@ $ npm info "@meludi/eslint-config-base@latest" peerDependencies
 
 ## Usage
 
-If you did not already have `.eslintrc.js` and `prettier.config.js` configuration files in the root of your project create them.
+If you did not already have `.eslintrc.js` configuration file in the root of your project create it.
 
 Add the following to your `.eslintrc.js`:
 
@@ -36,12 +36,7 @@ Add the following to your `.eslintrc.js`:
 module.exports = {
   root: true,
 
-  extends: [
-    '@meludi/eslint-config-base',
-
-    // Make sure to put prettier last, so it gets the chance to override other configs.
-    '@meludi/eslint-config-prettier/base',
-  ],
+  extends: ['@meludi/eslint-config-base'],
 
   // Adjust it to your project
   // https://eslint.org/docs/latest/use/configure/language-options#specifying-environments
@@ -66,13 +61,6 @@ module.exports = {
 };
 ```
 
-Add the following to your `prettier.config.js`:
-
-```js
-// prettier.config.js
-module.exports = require('@meludi/eslint-config-prettier/prettier.config');
-```
-
 ### NPM script
 
 Add the following script to your `package.json` for easy usage:
@@ -81,7 +69,6 @@ Add the following script to your `package.json` for easy usage:
 "scripts": {
   "lint:js": "eslint './**/*.{js}'",
   "lint:js:fix": "npm run lint:js -- --fix",
-  "format": "prettier --write './**/*.{js,md,json}'"
 }
 ```
 
@@ -93,27 +80,12 @@ You can overwrite, extend and unset rules in your `.eslintrc.js`
 
 ## Recommendation
 
+Use prettier to format your files: [@meludi/eslint-config-prettier](https://www.npmjs.com/package/@meludi/eslint-config-prettier)
+
 Add the following config files to the root of your project:
 
 - [.eslintignore](https://eslint.org/docs/latest/use/configure/ignore)
-- [.prettierignore](https://prettier.io/docs/en/ignore.html)
 - [.editorconfig](https://editorconfig.org/)
-
-```sh
-# .editorconfig: http://EditorConfig.org
-root = true
-
-[*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[*.md]
-trim_trailing_whitespace = false
-```
 
 ### VS Code
 

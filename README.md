@@ -25,6 +25,7 @@ We actually publish [several packages](/packages) to npm from the same codebase,
 ## Development
 
 ### Committing, versioning and publishing
+
 ```sh
 # Commit with conventional commits
 # https://www.conventionalcommits.org/en/v1.0.0/
@@ -41,6 +42,38 @@ $ pnpm lerna:version
 # Publishing to npm registry
 # This operation requires a one-time password
 $ pnpm lerna:publish
+```
+
+### Local testing with [verdaccio - local npm registry](https://verdaccio.org/)
+
+```sh
+# install
+$ npm install --location=global verdaccio
+
+# run
+$ verdaccio
+
+# verdaccio server
+http://localhost:4873/
+
+# verdaccio storage directory on mac
+~/.config/verdaccio/storage/
+```
+
+```sh
+# see https://github.com/lerna/lerna/issues/2363
+
+# puts all packages on the local registry without changing tags (bumps versions by default but that can be undone with a hard git reset)
+$ pnpm lerna:verdaccio:publish
+
+# optionally passing a version number if all packages are intended to be locally published to the same version, e.g.
+$ pnpm lerna:verdaccio:publish 0.0.1
+
+# removes the latest version of each package from the local registry
+$ pnpm lerna:verdaccio:unpublish
+
+# removes all packages on the local registry in case something went wrong
+$ pnpm lerna:verdaccio:unpublish:all
 ```
 
 ## LICENSE

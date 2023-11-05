@@ -1,9 +1,5 @@
 {
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "editor.codeActionsOnSave": {
-    // https://github.com/microsoft/vscode-eslint/blob/master/README.md#release-notes
-    "source.fixAll.eslint": true
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true
 }

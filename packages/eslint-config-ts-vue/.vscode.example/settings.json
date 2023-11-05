@@ -13,7 +13,6 @@
   "typescript.updateImportsOnFileMove.enabled": "prompt",
   "typescript.tsdk": "node_modules/typescript/lib",
   // editor
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {

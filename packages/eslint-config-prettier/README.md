@@ -23,7 +23,7 @@ $ npm info "@meludi/eslint-config-prettier@latest" peerDependencies
 
 ## Entry points
 
-- @meludi/eslint-config-prettier/base
+- @meludi/eslint-config-prettier
 - @meludi/eslint-config-prettier/vue
 
 ## Usage
@@ -39,7 +39,10 @@ module.exports = {
     // ... other configs
 
     // Make sure to put prettier last, so it gets the chance to override other configs.
-    '@meludi/eslint-config-prettier/base',
+    '@meludi/eslint-config-prettier',
+
+    // Vue
+    // '@meludi/eslint-config-prettier/vue',
   ],
 };
 ```
@@ -57,7 +60,7 @@ Add the following script to your `package.json` for easy usage:
 
 ```json
 "scripts": {
-  "format": "prettier --write './**/*.{js,md,json}'"
+  "format": "prettier --write './**/*.{js,jsx,ts,tsx,vue,md,mdx,json}'"
 }
 ```
 
@@ -67,22 +70,6 @@ Add the following config files to the root of your project:
 
 - [.prettierignore](https://prettier.io/docs/en/ignore.html)
 - [.editorconfig](https://editorconfig.org/)
-
-```sh
-# .editorconfig: http://EditorConfig.org
-root = true
-
-[*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[*.md]
-trim_trailing_whitespace = false
-```
 
 ### VS Code
 

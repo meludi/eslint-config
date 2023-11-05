@@ -28,7 +28,7 @@ $ npm info "@meludi/eslint-config-ts-vue@latest" peerDependencies
 
 ## Usage
 
-If you did not already have `.eslintrc.js` and `prettier.config.js` configuration files in the root of your project create them.
+If you did not already have `.eslintrc.js` configuration file in the root of your project create them.
 
 Add the following to your `.eslintrc.js`:
 
@@ -37,9 +37,6 @@ Add the following to your `.eslintrc.js`:
 module.exports = {
   extends: [
     '@meludi/eslint-config-ts-vue/vue2', // or '@meludi/eslint-config-ts-vue/vue3'
-
-    // Make sure to put prettier last, so it gets the chance to override other configs.
-    '@meludi/eslint-config-prettier/vue',
   ],
 
   // Adjust it to your project
@@ -48,6 +45,20 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+  },
+
+  parser: '@typescript-eslint/parser',
+
+  // Adjust it to your project
+  // https://typescript-eslint.io/architecture/parser/
+  parserOptions: {
+   project: ['./tsconfig.json', './tsconfig.eslint.json'],
+    tsconfigRootDir: __dirname,
+    sourceType: 'module',
+    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
 
   // optional
@@ -63,13 +74,6 @@ module.exports = {
 };
 ```
 
-Add the following to your `prettier.config.js`:
-
-```js
-// prettier.config.js
-module.exports = require('@meludi/eslint-config-prettier/prettier.config');
-```
-
 ### NPM script
 
 Add the following script to your `package.json` for easy usage:
@@ -77,8 +81,7 @@ Add the following script to your `package.json` for easy usage:
 ```json
 "scripts": {
   "lint:js": "eslint './**/*.{js,vue,ts}'",
-  "lint:js:fix": "npm run lint:js -- --fix",
-  "format": "prettier --write './**/*.{js,vue,ts,md,json}'"
+  "lint:js:fix": "npm run lint:js -- --fix"
 }
 ```
 
@@ -88,29 +91,31 @@ You can overwrite, extend and unset rules in your `.eslintrc.js`
 
 > [Configuring ESLint](https://eslint.org/docs/user-guide/configuring)
 
+
+Example `tsconfig.eslint.json` configuration file in the root of your project
+
+```json
+{
+  "include": [
+    // add all files in which you see
+    // the "parserOptions.project" error
+
+    // Example
+    // ".eslintrc.cjs",
+    // "commitlint.config.cjs",
+    // "prettier.config.cjs"
+  ]
+}
+```
+
 ## Recommendation
+
+Use prettier to format your files: [@meludi/eslint-config-prettier](https://www.npmjs.com/package/@meludi/eslint-config-prettier)
 
 Add the following config files to the root of your project:
 
 - [.eslintignore](https://eslint.org/docs/latest/use/configure/ignore)
-- [.prettierignore](https://prettier.io/docs/en/ignore.html)
 - [.editorconfig](https://editorconfig.org/)
-
-```sh
-# .editorconfig: http://EditorConfig.org
-root = true
-
-[*]
-indent_style = space
-indent_size = 2
-end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[*.md]
-trim_trailing_whitespace = false
-```
 
 ### VS Code
 

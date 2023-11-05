@@ -5,7 +5,7 @@ module.exports = {
     '@meludi/eslint-config-base',
 
     // Make sure to put prettier last, so it gets the chance to override other configs.
-    '@meludi/eslint-config-prettier/base',
+    '@meludi/eslint-config-prettier',
   ],
 
   root: true,

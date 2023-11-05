@@ -1,8 +1,5 @@
 {
   "recommendations": [
-    // Prettier - Integrates Prettier into VS Code.
-    // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-    "esbenp.prettier-vscode",
     // ESLint - Integrates ESLint JavaScript into VS Code.
     // https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
     "dbaeumer.vscode-eslint"

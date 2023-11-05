@@ -12,7 +12,6 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   // editor
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {

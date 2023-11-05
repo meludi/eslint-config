@@ -10,7 +10,7 @@
     "eslint",
     "eslint-config",
     "react-config",
-    "typescript",
+    "vue-config",
     "typescript-config"
   ],
   "author": {
@@ -28,7 +28,10 @@
     "test": "lerna run test --stream",
     "lint": "lerna run lint --concurrency 1 --stream",
     "lerna:version": "lerna version --no-private --no-push",
-    "lerna:publish": "lerna publish from-package"
+    "lerna:publish": "lerna publish from-package",
+    "lerna:verdaccio:publish": "lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\"",
+    "lerna:verdaccio:unpublish": "lerna exec -- npm unpublish --registry=\"http://localhost:4873/\" \"\\${LERNA_PACKAGE_NAME}@\\$(npm view \\$LERNA_PACKAGE_NAME version)\"",
+    "lerna:verdaccio:unpublish:all": "lerna exec -- npm unpublish -f --registry=\"http://localhost:4873/\" \"\\${LERNA_PACKAGE_NAME}\""
   },
   "config": {
     "commitizen": {

@@ -1,7 +1,14 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
+
+    // Replace `plugin:@typescript-eslint/recommended`
+    // to `plugin:@typescript-eslint/recommended-type-checked`
+    // or `plugin:@typescript-eslint/strict-type-checked`
+
+    // Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
     // 'plugin:@typescript-eslint/recommended-requiring-type-checking',
+
     'plugin:import/typescript',
   ],
 
