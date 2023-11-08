@@ -6,6 +6,9 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "eslint.validate": [
+    "javascript"
+  ],
   // editor
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,

@@ -10,6 +10,10 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   // editor
   "editor.formatOnPaste": false,

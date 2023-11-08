@@ -7,6 +7,10 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "prompt",
   "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
   // editor
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
