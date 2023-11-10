@@ -50,8 +50,9 @@
     "lerna": "^7.4.2",
     "prettier": "^3.0.3"
   },
-  "engines": {
-    "node": "^16.x || ^18.x"
+ "engines": {
+    "node": ">=16",
+    "npm": ">=8"
   },
   "bugs": {
     "url": "https://github.com/meludi/eslint-config/issues"
