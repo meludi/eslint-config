@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-ts-react@0.2.0...@meludi/eslint-config-ts-react@0.3.0) (2023-11-10)
+
+### Features
+
+- update node version to 20.x ([beaa02d](https://github.com/meludi/eslint-config/commit/beaa02d9bd4f20babf266eb4ffba050f1eb7432e))
+
 # [0.2.0](https://github.com/meludi/eslint-config/compare/@meludi/eslint-config-ts-react@0.1.3...@meludi/eslint-config-ts-react@0.2.0) (2023-11-05)
 
 ### Code Refactoring

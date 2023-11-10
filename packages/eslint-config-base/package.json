@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-base",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable configuration for javascript eslint",
   "private": false,
   "license": "MIT",
@@ -44,7 +44,7 @@
     "@meludi/eslint-config-base": "*",
     "eslint": ">= 8"
   },
- "engines": {
+  "engines": {
     "node": ">=16",
     "npm": ">=8"
   },

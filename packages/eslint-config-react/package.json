@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable configuration for react eslint",
   "private": false,
   "license": "MIT",
@@ -44,7 +44,7 @@
     "test": "echo \"Not specified\" && exit 0"
   },
   "dependencies": {
-    "@meludi/eslint-config-base": "^0.2.0",
+    "@meludi/eslint-config-base": "^0.3.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -58,7 +58,7 @@
     "@meludi/eslint-config-base": "*",
     "eslint": ">= 8"
   },
- "engines": {
+  "engines": {
     "node": ">=16",
     "npm": ">=8"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-ts-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable configuration for react typescript eslint",
   "private": false,
   "license": "MIT",
@@ -44,9 +44,9 @@
     "test": "echo \"Not specified\" && exit 0"
   },
   "dependencies": {
-    "@meludi/eslint-config-base": "^0.2.0",
-    "@meludi/eslint-config-react": "^0.2.0",
-    "@meludi/eslint-config-ts-base": "^0.2.0",
+    "@meludi/eslint-config-base": "^0.3.0",
+    "@meludi/eslint-config-react": "^0.3.0",
+    "@meludi/eslint-config-ts-base": "^0.3.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
@@ -71,7 +71,7 @@
       "optional": true
     }
   },
- "engines": {
+  "engines": {
     "node": ">=16",
     "npm": ">=8"
   },

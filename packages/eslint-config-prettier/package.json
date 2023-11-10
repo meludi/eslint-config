@@ -1,6 +1,6 @@
 {
   "name": "@meludi/eslint-config-prettier",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable configuration for prettier eslint",
   "private": false,
   "license": "MIT",
@@ -48,7 +48,7 @@
   "peerDependencies": {
     "prettier": ">= 3"
   },
- "engines": {
+  "engines": {
     "node": ">=16",
     "npm": ">=8"
   },
